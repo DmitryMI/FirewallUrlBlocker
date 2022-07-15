@@ -11,6 +11,10 @@
     <OutputPath>.</OutputPath>
     <Name>FirewallUrlBlocker</Name>
     <RootNamespace>FirewallUrlBlocker</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
